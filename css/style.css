@@ -1,0 +1,12 @@
+html{
+    background-image: linear-gradient(rgb(104, 80, 80),rgba(8, 133, 236, 0.233));
+    
+}
+
+h1 {
+    color: rgb(218, 209, 191); 
+    text-shadow: darkslategrey firebrick;
+    text-shadow: 2px 2px 5px pink;
+    
+}
+
