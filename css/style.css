@@ -1,12 +1,39 @@
 html{
-    background-image: linear-gradient(rgb(104, 80, 80),rgba(8, 133, 236, 0.233));
+    background-image: linear-gradient(rgba(228, 8, 8, 0.776),rgb(2, 2, 2));
+
     
 }
 
-h1 {
+.myName {
     color: rgb(218, 209, 191); 
     text-shadow: darkslategrey firebrick;
     text-shadow: 2px 2px 5px pink;
+    font-weight: bolder;
+    font-size: xx-large;
     
 }
+.myFace{
+    border-radius: 150px 150px 150px 150px;
+    border: 1px solid;
+}
 
+
+p ,h1{
+    color: mistyrose;
+}
+
+.dom-intro-div{
+    width: auto;
+    height:300px;
+    background-color: rgba(46, 45, 45, 0.667);
+    border: solid rgb(159, 12, 12);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.basic-web-page-div{
+    width: auto;
+    height:300px;
+    background-color: rgb(46, 45, 45, 0.667);
+    border: solid rgb(159, 12, 12);
+    border-radius: 50px 50px 50px 50px;
+}
