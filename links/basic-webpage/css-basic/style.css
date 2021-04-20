@@ -1,0 +1,453 @@
+header{
+    
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+}
+h2{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
+    
+}
+.h2-div{
+
+    padding: 1em;
+    margin: 1em;
+    
+}
+.h2-roman-div{
+    
+    padding: 1em;
+    margin: 1em;
+    
+}
+th,td{
+   
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-style: ridge;
+    border-collapse: collapse;
+}
+table{
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+body{
+    box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
+    background-color: beige;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img1-fave{
+    background-color: aqua;
+   
+margin-right: auto;
+       
+}
+
+
+
+/*div contents of historical places*/
+.cityhall-content{
+
+    margin-top: 0px;
+    padding-top: 0px;
+    height: auto;
+    display :flex ;
+    flex-flow: row;
+}
+
+.castle-content-div{
+    margin-top: 0px;
+    padding-top: 0px;
+
+    display :flex ;
+    flex-flow: row;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.museum-content-div{
+
+    display :flex ;
+    flex-flow: row;
+  
+    padding-right: 21px;
+}
+/*Below container's beyond this point*/
+.master-container{
+    display:flex;
+    flex-flow: row;
+    width: 100%;
+    height: auto;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    /*! padding: 1px; */
+
+}
+
+.cityhall-container{
+    
+    padding: 1px;
+    margin: 1px;
+
+    display: flex;
+    flex-flow:row    ;
+    width: initial;
+
+}
+.castle-container{
+    width: initial;
+    
+    padding: 1px;
+    margin: 1px;
+
+    display: flex;
+    flex-flow:row;
+
+}
+
+.museum-container{
+    width: 100%;
+    
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row;
+ 
+}
+
+
+    /*header img divs beyond this point*/
+    .tablemountain-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+   
+    }
+    
+    .img-fave{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    /*historical places img divs beyond this point*/
+    .cityhall-img{
+        width: 50%;
+        height: auto;
+        
+    }
+    .img-museum-div{
+        width: 50%;
+        height: auto;
+        
+       
+    }
+    .castle-img{
+        width: 50%;
+        height: auto;
+        
+        
+    }
+
+ 
+    hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+   .other-pics,.center-pics{
+       margin-left: 5px;
+       margin-bottom: 5px;
+       float: right;
+   }
+
+   .intro-container{
+    display: flex;
+    flex-flow: row;
+    /*! margin-right: auto; */
+    /*! margin-left: auto; */
+    /* background-color: thistle; */
+   
+}
+.me-name{
+    margin-left: 0%;
+    margin-right: 0%;
+    min-width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+
+.me-pic{
+    width: 320px;
+    height: 185px;
+    flex-flow: column;
+    display: flex;
+    /*! margin-right: 11%; */
+    /*! margin-left: -1%; */
+}
+
+p{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.higher-div{
+    display: flex;
+    flex-flow: row;
+    margin-left: 74px;
+  
+   
+   
+    margin-right: auto;
+}
+.fave-city-img{
+    width: 50%;
+    height: auto;
+    display: flex;
+
+}
+
+.fave-city-content{
+    display: flex;
+    flex-flow: row;
+    width: 57%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 66px;
+
+   
+ 
+}
+
+.foreign-div{
+    padding-top: 0px;
+    margin-top: 0px;
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+        .thee-div{
+        display: flex;
+        flex-flow: row;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+/*Media query beyond this point*/
+@media screen and (max-width: 799px){
+    .other-pics{
+        float: right;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px;
+    }
+    .center-pics{
+        float: left;
+        
+        margin-right: 17px;
+
+    }
+    
+    .master-container{
+        width: 100%;
+        flex-flow: column;
+   
+    }
+    .castle-container{
+        flex-flow: row;
+        width: 96%;
+     
+    }
+    .museum-container{
+        width: 100%;
+        flex-flow: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cityhall-container{
+        width: 100%;
+        flex-flow: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+   
+   
+   
+    .headoftrade{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .me-pic{
+        width: 320px;
+        height: auto;
+        text-align: center;
+        /*! margin-left: auto; */
+        margin-right: auto;
+       
+    }
+    .me-name{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+
+    .intro-container{
+       display: flex;
+       flex-flow: column;
+   
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .higher-div{
+        display: flex;
+        flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fave-city-content{
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+        height: auto;
+    }
+    .fave-city-img{
+        display: flex;
+        flex-flow: column;
+
+    }
+    .thee-div{
+        display: flex;
+        flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
+        
+        }
+        .colo{
+            
+            margin-bottom: 10px;
+          
+        }
+}
+
+@media screen and (max-width:390px){
+    .colo{
+        max-width: 100%;
+        height: auto;
+    }
+    .me-name{
+        width: 87%;
+        height: auto;
+        
+    }
+    .colo1{
+        max-width: 100%;
+        height: auto;}
+   
+    .intro-container{
+        width: 100%;
+        height: auto;
+    }
+    .me-pic{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media screen and (maxwidth:336px){
+    h1{
+        font-size: small;
+    }
+    
+}
+
+html{
+    background-color: rgb(251, 250, 250);
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px ;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: honeydew;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
+    text-align: center;
+    margin-right: 0%;
+    padding-right: 0%;
+    
+}
+
+
+
+
+
+ul{
+    margin-left: -16px;
+    margin-right: 17px;
+    font-size: inherit;
+}
+
+
+
+
+h4{
+    text-align: center;
+}
+
+
+.headoftrade{
+    width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    flex-flow: column;
+    
+}
+h4{
+    padding-top: 0%; 
+    margin-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+li{
+    /*! font-size:small; */
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+

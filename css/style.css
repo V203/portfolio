@@ -1,41 +1,81 @@
-html{
-    background-image: linear-gradient(rgba(228, 8, 8, 0.776),rgb(2, 2, 2));
-
+body{
+    background-image: linear-gradient(rgb(33, 32, 32),rgb(116, 69, 69));
+margin: 10% 10% 10% 10%;
     
 }
 
-.myName {
-    color: rgb(218, 209, 191); 
-    text-shadow: darkslategrey firebrick;
-    text-shadow: 2px 2px 5px pink;
-    font-weight: bolder;
-    font-size: xx-large;
-    
+
+
+
+
+p,h1,h3{
+    color: rgba(245, 247, 249, 0.797);
+    text-shadow: 7px 7px 5px rgb(157, 44, 45) rgb(224, 244, 204);
+}
+
+.fe-divs{
+    width: 20%;
+    height:auto;
+    background-color: rgba(133, 130, 130, 0.667);
+    border: solid rgb(157, 44, 45);
+    /* border-radius: 50px 50px 50px 50px; */
+    margin: 1em 1em 1em 1em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.be-divs{
+    width: 20%;
+    height:auto;
+    background-color: rgba(133, 130, 130, 0.667);
+    border: solid rgb(157, 44, 45);
+    border-radius: 50%;
+    margin: 1em 1em 1em 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.heading{
+    display: flex;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
 }
 .myFace{
     border-radius: 150px 150px 150px 150px;
-    border: 1px solid;
+    border: 2px solid darkred;
+    /* border: darkred; */
     width: 200px;
     height: 200px;
+    background-color: darkred;
+}
+hr{
+    color: rgb(157, 44, 45);
 }
 
-
-p ,h1{
-    color: mistyrose;
+.fe-projs{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: auto;
+}
+.mini-head{
+    text-align: center;
 }
 
-.dom-intro-div{
-    width: auto;
-    height:300px;
-    background-color: rgba(46, 45, 45, 0.667);
-    border: solid rgb(159, 12, 12);
-    border-radius: 50px 50px 50px 50px;
+.fe-divs:hover{
+    border: solid rgb(109, 84, 150);
+    cursor: pointer;
+  
 }
 
-.basic-web-page-div{
-    width: auto;
-    height:300px;
-    background-color: rgb(46, 45, 45, 0.667);
-    border: solid rgb(159, 12, 12);
-    border-radius: 50px 50px 50px 50px;
+.fe-imgs{
+    width: 100%;
+    height: auto;
 }

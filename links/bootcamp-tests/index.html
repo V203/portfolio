@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup("bdd");
+        var assert = chai.assert;
+
+    </script>
+
+        <script src="bootcamp-functions/greet.js"></script>
+        <script src="test/greet.test.js"></script>
+
+        <script src="bootcamp-functions/yearsAgo.js"></script>
+        <script src="test/yearsAgo.test.js"></script>
+
+        <script src="./bootcamp-functions/isWeekday.js"></script>
+        <script src="./test/isWeekday.test.js"></script>
+
+        <script src="./bootcamp-functions/countAllFromTown.js"></script>
+        <script src="./test/countAllFromTown.test.js"></script>
+
+        <script src="./bootcamp-functions/countAllPaarl.js"></script>
+        <script src="./test/countAllPaarl.test.js"></script>
+
+        <script src="./bootcamp-functions/countRegNumber.js"></script>
+        <script src="./test/countRegNumber.test.js"></script>
+
+        <script src="./bootcamp-functions/findItemsOver.js"></script>
+        <script src="./test/findItemsOver.test.js"></script>
+
+        <script src="./bootcamp-functions/findItemsOver20.js"></script>
+        <script src="./test/findItemsOver20.test.js"></script>
+
+        <script src="./bootcamp-functions/fromWhere.js"></script>
+        <script src="./test/fromWhere.test.js"></script>
+
+        <script src="./bootcamp-functions/isFromBellville.js"></script>
+        <script src="./test/isFromBellville.test.js"></script>
+
+        <script src="./bootcamp-functions/mostProfitableDepartment.js"></script>
+        <script src="./test/mostProfitableDepartment.test.js"></script>
+
+        <script src="./bootcamp-functions/regCheck.js"></script>
+        <script src="./test/regCheck.test.js"></script>
+
+        <script src="./bootcamp-functions/totalPhoneBill.js"></script>
+        <script src="./test/totalPhoneBill.test.js"></script>
+
+        <script src="./bootcamp-functions/transportFee.js"></script>
+        <script src="./test/transportFee.test.js"></script>
+
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+
+</html>
