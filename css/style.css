@@ -1,6 +1,6 @@
-body{
+html,body{
     background-image: linear-gradient(rgb(33, 32, 32),rgb(116, 69, 69));
-margin: 10% 10% 10% 10%;
+
     
 }
 
@@ -19,9 +19,9 @@ p,h1,h3{
     background-color: rgba(133, 130, 130, 0.667);
     border: solid rgb(157, 44, 45);
     /* border-radius: 50px 50px 50px 50px; */
-    margin: 1em 1em 1em 1em;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin: 1em auto;
+   
+    /* border-radius: 50%; */
 }
 
 .be-divs{
@@ -35,15 +35,12 @@ p,h1,h3{
     padding-right: 1em;
 }
 
-body{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .heading{
     display: flex;
-    flex-flow: row;
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,6 +51,8 @@ body{
     width: 200px;
     height: 200px;
     background-color: darkred;
+    margin-left: auto;
+    margin-left: auto;
 }
 hr{
     color: rgb(157, 44, 45);
@@ -65,11 +64,15 @@ hr{
     width: 100%;
     height: auto;
 }
-.mini-head{
+.be-head{
+    text-align: center;
+}
+.fe-head{
     text-align: center;
 }
 
 .fe-divs:hover{
+    
     border: solid rgb(109, 84, 150);
     cursor: pointer;
     opacity:0.9;
@@ -78,6 +81,24 @@ hr{
 
 .fe-imgs{
     width: 100%;
+    height: auto;
+    
+}
+.face-div{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.be-projs{
+    display: flex;
+    flex-flow: row;
+
+}
+
+.be-divs{
+    width: 20%;
     height: auto;
 }
 
@@ -90,10 +111,36 @@ hr{
 
 @media screen and (max-width:972px){
     .fe-projs{
-        display: flex;
+        /* display: flex; */
+        flex-flow: column;
+    }
+    .be-projs{
+        /* display: flex; */
         flex-flow: column;
     }
     .fe-divs{
-        width: 80%;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .be-divs{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:485px){
+    .heading{
+        display: flex;
+        flex-flow: column-reverse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:522){
+    .face-div{
+        flex-flow: row-reverse;
     }
 }
