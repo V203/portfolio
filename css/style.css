@@ -72,10 +72,28 @@ hr{
 .fe-divs:hover{
     border: solid rgb(109, 84, 150);
     cursor: pointer;
+    opacity:0.9;
   
 }
 
 .fe-imgs{
     width: 100%;
     height: auto;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------MEDIA-QUERY-Bellow----------------------------------------------------------------- */
+
+
+@media screen and (max-width:972px){
+    .fe-projs{
+        display: flex;
+        flex-flow: column;
+    }
+    .fe-divs{
+        width: 80%;
+    }
 }
